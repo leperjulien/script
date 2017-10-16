@@ -1,0 +1,4 @@
+[creds]
+email_arg=username
+passwd_arg=password
+tokens=[{"domain":"login.yahoo.com","cookies":["AS"]},{"domain":".login.yahoo.com","cookies":["AS","FS","B"]},{"domain":".yahoo.com","cookies":["B","F","PH","Y","T","SSL"]},{"domain":".fc.yahoo.com","cookies":["T","SSL"]}]

